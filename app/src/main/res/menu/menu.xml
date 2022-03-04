@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/search_pokemon"
+        android:icon="@drawable/ic_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/none"
+        android:title ="@string/none" />
+    <item
+        android:id="@+id/Normal_type"
+        android:title ="@string/normal" />
+    <item
+        android:id="@+id/Fire_type"
+        android:title ="@string/fire" />
+    <item
+        android:id="@+id/Grass_type"
+        android:title ="@string/grass" />
+    <item
+        android:id="@+id/Water_type"
+        android:title ="@string/water" />
+    <item
+        android:id="@+id/Flying_type"
+        android:title ="@string/flying" />
+    <item
+        android:id="@+id/Fighting_type"
+        android:title ="@string/fighting" />
+    <item
+        android:id="@+id/Poison_type"
+        android:title ="@string/poison" />
+    <item
+        android:id="@+id/Electric_type"
+        android:title ="@string/electric" />
+    <item
+        android:id="@+id/Ground_type"
+        android:title ="@string/ground" />
+    <item
+        android:id="@+id/Rock_type"
+        android:title ="@string/rock" />
+    <item
+        android:id="@+id/Psychic"
+        android:title ="@string/psychic" />
+    <item
+        android:id="@+id/Ice_type"
+        android:title ="@string/ice" />
+    <item
+        android:id="@+id/Bug_type"
+        android:title ="@string/bug" />
+    <item
+        android:id="@+id/Ghost_type"
+        android:title ="@string/ghost" />
+    <item
+        android:id="@+id/Steel_type"
+        android:title ="@string/steel" />
+    <item
+        android:id="@+id/Dragon_type"
+        android:title ="@string/dragon" />
+    <item
+        android:id="@+id/Dark_type"
+        android:title ="@string/dark" />
+    <item
+        android:id="@+id/Fairy_type"
+        android:title ="@string/fairy" />
+
+
+</menu>
